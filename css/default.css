@@ -1,0 +1,88 @@
+/*default display properties*/
+
+/*https://www.w3.org/TR/CSS21/visuren.html*/
+
+/*https://www.w3.org/TR/html-markup/a.html*/
+
+/*https://www.w3.org/TR/CSS21/box.html*/
+
+html {display: block; }
+html:focus {outline: none; }
+
+body {
+display: block;
+margin: 8px; 
+}
+body:focus {outline: none;}
+
+head {display: none; }
+
+div {display: block; }
+
+header , footer , section {display: block; }
+
+
+a:link, a:visited {
+color: (internal value);
+text-decoration: underline;
+cursor: auto; 
+}
+a:link:active, a:visited:active {
+color: (internal value); 
+}
+
+
+ol {
+display: block;
+list-style-type: decimal;
+margin-before: 1em;
+margin-after: 1em;
+margin-start: 0;
+margin-end: 0;
+padding-start: 40px;
+}
+
+/*ul { list-style-type: "★"; }*//*https://www.w3.org/TR/css3-lists/#declaring-a-list-item*/
+ul {
+display: block;
+list-style-type: disc;
+margin-before: 1em;
+margin-after: 1em;
+margin-start: 0;
+margin-end: 0;
+padding-start: 40px; 
+}
+
+
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+
+
+h1 {
+display: block;
+font-size: 2em;
+margin-before: 0.67em;
+margin-after: 0.67em;
+margin-start: 0;
+margin-end: 0;
+font-weight: bold; 
+}
+
+
+
+hr {
+display: block;
+margin-before: 0.5em;
+margin-after: 0.5em;
+margin-start: auto;
+margin-end: auto;
+border-style: inset;
+border-width: 1px;
+}
+
+iframe:focus {
+outline: none; }
+iframe[seamless] {
+display: block; }
