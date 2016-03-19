@@ -39,7 +39,7 @@
 		<div class="qwe-site-title">
 		<p>
 			<a href="<?php the_permalink();?>"><?php bloginfo('title' ); ?></a>
-			<a href="<?php echo get_theme_mod( 'qwe-description1-link', '#' ); ?>"><?php echo get_theme_mod( 'qwe-description1', '- lANGUAGES -' ); ?></a>	
+			<a href="<?php echo get_theme_mod( 'qwe-description1-link', '#' ); ?>"><?php echo get_theme_mod( 'qwe-description1', '- ALL LANGUAGES -' ); ?></a>	
 			<a href="<?php  the_permalink();?>"><?php bloginfo('description' );?></a>
 			<!-- <a href="#"><button><?php echo get_theme_mod('qwe-title-button','BUTTON' ); ?></button></a>	 -->
 		</p>

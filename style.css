@@ -228,7 +228,8 @@ img#logo {
 /*post*/
 
 .qwe-post-wrapper .qwe-page-title{padding:1% 3%;}
-.qwe-post-wrapper p{padding:1% 3%;}
+.qwe-post-wrapper .qwe-page-body{padding:1% 3%;}
+.qwe-post-wrapper {padding:1% 3%;}
 
 .qwe-post-wrapper {border-top:1px solid #000;}
 
