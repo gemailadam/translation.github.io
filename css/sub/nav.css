@@ -1,0 +1,33 @@
+
+/*navigation*/
+
+.qwe-nav {
+  width:100%;
+  background:#000;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9 ));
+  
+  position: fixed;
+  top:0;
+  z-index:1;
+}
+.qwe-nav a {
+  display: inline-block;
+  text-decoration:none;
+  color:#fff;
+  white-space:nowrap;
+  padding:0.5vw 2vw ;
+  font-size:1.5vw;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: qwe_myFirstFont; */
+  /* font-family: 'Indie Flower', cursive; */
+  font-family:  cursive;
+}
+
+.qwe-nav ul {box-shadow: 4px 4px 8px #000;}
+.qwe-nav ul , .qwe-nav li {list-style: none;}
+.qwe-nav li  {position: relative;}
+.qwe-nav div > ul > li {display: inline-block;}
+.qwe-nav > div > ul  li  ul {position: absolute;display: none; background-color:#000; }
+.qwe-nav li:hover > ul{display: block;}
+.qwe-nav > div > ul > li:hover > ul {left:0;top:100%;}
+.qwe-nav > div > ul > li > ul li:hover > ul {left:100%;top:0%;}

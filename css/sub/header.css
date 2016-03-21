@@ -1,0 +1,144 @@
+
+/*header*/
+
+.qwe-site-title p {width:45%;padding-top:2%;line-height:8vw;}
+.qwe-site-title a {background-color: transparent;text-decoration: none;display: block;color:#fff;}
+.qwe-site-title a {font-size: 4vw;text-shadow:2px 2px 3px #000;text-align: center;vertical-align:middle;}
+.qwe-site-title a:nth-child(2) {font-size: 3vw;}
+.qwe-site-title a button {font-size: 6vw;background-color: transparent;}
+.qwe-site-title a button {text-shadow:2px 2px 3px #000;box-shadow:2px 2px 8px #000;}
+.qwe-site-title a button {color:#fff;border: 1px solid #777; border-radius:10%;}
+
+/* slideshow or banner */
+.galleryPreviewImage {position: relative;z-index:-1;}
+.galleryPreviewImage img {width: 100%;position: absolute;}
+
+
+.galleryPreviewContainer {
+    position: relative;
+}
+
+
+.galleryPreviewImage img{/*that mean all images disappear exept img.previewImage1 [Next]*/
+    display: none;
+    position: absolute;/* new change - prev > position: relative;*/
+    top:0;
+
+}
+
+.galleryPreviewImage img.previewImage1 {
+    display: block;
+}
+
+img#btn { width:12%;margin:10px 5%;position:absolute;left:75%;top:460px;}
+img#logo {
+  position: fixed;
+  width:8%;
+  right:1%;
+  top:5%;
+  box-shadow:5px 5px 40px #000;
+  border-radius:20%;
+  z-index: 10;
+}
+
+
+.galleryPreviewarrow{width: 90%;}
+.galleryPreviewarrow a {
+    font-family: arial,sans-serif;
+    font-size: 200%;
+    background-color:rgba(0,0,0,0.3);
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 100px;/*35px because of 70px width and height*/
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+    position: absolute;
+}
+
+.previousslidearrow{
+    left:5%;
+}
+
+.nextslidearrow {
+    right:5%;
+}
+
+
+.galleryPreviewarrow a:hover {
+    background-color: #000;
+}
+
+.gallerydescription > div {
+    display: none;
+    width: 100%;
+}
+
+.gallerydescription > div a {
+  color: #fff;
+  text-decoration:none;
+  text-shadow:2px 2px 3px #000;
+  padding:1% 1%;
+  margin-top:1%;
+  font-size: 2vw;/*fix bug text changed at header*/
+}
+.gallerydescription > div p {
+  text-align: center;
+  vertical-align:middle;/*??*/
+  width:45%;
+}
+.gallerydescription .description1 {display: block;}
+
+.gallerydescription .desbg{background-color:rgba(0, 0, 0, 0);/* padding:1% 0; */}
+
+.gallerydescription > div input {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top:1%;
+    border-radius: 0.5vw;/*fix*/
+    width:15vw;/*fix*/
+    border:0.1vw solid #fff;/*fix*/
+    background-color:transparent;
+    color: #fff;
+    font-size: 3vw;
+    box-shadow: 0 0 0 #000;/*fix*/
+    box-shadow:2px 2px 8px #000;
+    text-shadow:2px 2px 3px #000;
+}
+
+.gallerydescription > div input:hover {
+    box-shadow: 2px 2px 4px #000;
+
+}
+
+
+.galleryNavigationBullets p {
+    text-align: center;
+    padding-left:25%; width:50%;padding-top:2%;line-height:8vw;
+}
+
+.galleryNavigationBullets span {
+    display: none;
+}
+
+
+.galleryNavigationBullets a {
+    background-color:#fff;
+    box-shadow:inset 3px 3px 8px #000;
+    width:2vw;
+    height: 2vw;
+    display: inline-block;
+    margin-right: 1vw;
+    border-radius: 1vw;
+    text-align: center;vertical-align:middle;/*fix bug text changed at header*/
+}
+
+.galleryNavigationBullets a:hover ,.galleryNavigationBullets a.active {
+    box-shadow: 3px 3px 8px #000;
+}
+
+.galleryNavigationBullets a:focus {background-color:#fbca3c;}

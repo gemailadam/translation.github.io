@@ -1,0 +1,51 @@
+  
+
+/* newsletter & gifts & books & sign in */
+
+.qwe-float-newsletter-or-gift ul , .qwe-float-newsletter-or-gift li {list-style: none;}
+
+.qwe-float-newsletter-or-gift {
+  position: fixed;right:0%;
+  width:0%;
+  background-color:#000;
+  /* background-color:#fff; */
+  top:82%;
+  bottom:0%;
+  z-index:1;
+    border: 1px solid #666;
+    border-radius: 2%;
+      -moz-box-shadow: inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 5px #000000 , 0 9px 5px #000000;
+
+}
+
+.qwe-float-newsletter-or-gift:hover {right:0;width:25%;}
+.qwe-float-newsletter-or-gift .widgettitle{text-shadow:2px 2px 3px #000;color:#fff;}
+.qwe-float-newsletter-or-gift label{text-shadow:2px 2px 3px #000;color:#fff;}
+.qwe-float-newsletter-or-gift li {padding-left:5%;}
+.qwe-float-newsletter-or-gift div input:last-child {float: left; margin:5px 0 0 1px; box-shadow:2px 2px 3px #000;color:#fff;background-color:#000;}
+
+
+.qwe-float-newsletter-or-gift-show ul , .qwe-float-newsletter-or-gift-show li {list-style: none;}
+
+.qwe-float-newsletter-or-gift-show {
+  position: fixed;right:0;
+  width:25%;
+  background-color:#000;
+  top:82%;
+  bottom:0%;
+  z-index:1;
+    border: 1px solid #777;
+    border-radius: 2%;
+      -moz-box-shadow: inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 5px #000000 , 0 9px 5px #000000;
+
+}
+
+.qwe-float-newsletter-or-gift-show .widgettitle{text-shadow:2px 2px 3px #000;color:#fff;}
+.qwe-float-newsletter-or-gift-show label{text-shadow:2px 2px 3px #000;color:#fff;}
+.qwe-float-newsletter-or-gift-show li {padding-left:5%;}
+.qwe-float-newsletter-or-gift-show div input:last-child {float: left; margin:5px 0 0 1px; box-shadow:2px 2px 3px #000;color:#fff;background-color:#000;}
+
