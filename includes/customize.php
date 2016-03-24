@@ -66,12 +66,15 @@ function customize_register_qwe( $wp_customize ) {
             'settings' => 'logo_qwe' ,
             'active_callback' => 'is_front_page', )));
 
+
+
+
 // title 
 
 
 
 
-        $wp_customize->add_setting('qwe-description1',array('default' => '- all langauges -' ,'sanitize_callback'=>'sanitize_text_field'));
+        $wp_customize->add_setting('qwe-description1',array('default' => '- THEME -' ,'sanitize_callback'=>'sanitize_text_field'));
 
         $wp_customize->add_control('qwe-description1',array(
                 'description' =>'',        
@@ -85,7 +88,7 @@ function customize_register_qwe( $wp_customize ) {
                 
             )
         );
-             
+
 
 // main_ndex.php Images Change
 

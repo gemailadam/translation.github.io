@@ -76,6 +76,10 @@
 .qwe-post-wrapper {margin-left: 20%;width:60%;border:0.1vw solid #999 ;border-radius:1vw;}
 .qwe-post-wrapper h1 {margin:5%;}
 .qwe-post-wrapper h1 a{text-decoration: none;color:#444;}
+
+
+.qwe-page-body {margin:5%;}
+
 .contact-form {margin-left:5%;}
 .contact-form div:nth-child(1) ,.contact-form div:nth-child(5) ,
 .contact-form div:nth-child(6) ,.contact-form div:nth-child(11) {float: left;}

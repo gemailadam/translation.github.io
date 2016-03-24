@@ -1,8 +1,6 @@
-<section class="qwe-index">
-
 <?php 
 	if (have_posts()) {
-		$qweImage=get_template_directory_uri().'/images/postimage1.jpg';
+		$qweImage=get_template_directory_uri().'/images/post1.jpg';
 		$oddeven=1;
 
 		$count_qwe=1; 
@@ -23,8 +21,7 @@
 			echo '<div class="qwe-left-part qwe-col-xl-6 qwe-col-lg-12 qwe-col-md-12 qwe-col-sm-12">';				
 			echo '<div class="qwe-article">';				
 				echo '<h1 class="qwe-page-title"><a href="';the_permalink();echo '">';the_title();echo '</a></h1>';
-				// the_content();
-				the_excerpt();
+				the_content();
 				
 			echo '</div>';
 			echo '</div>';
@@ -38,8 +35,7 @@
 			echo '<div class="qwe-right-part qwe-article qwe-col-xl-6 qwe-col-lg-12 qwe-col-md-12 qwe-col-sm-12">';				
 			echo '<div class="qwe-article">';
 				echo '<h1 class="qwe-page-title"><a href="';the_permalink();echo '">';the_title();echo '</a></h1>';
-				// the_content();
-				the_excerpt();
+				the_content();
 			echo '</div>';
 			echo '</div>';
 			}
@@ -50,24 +46,6 @@
 			$oddeven=$oddeven+1;
 			$count_qwe++;
 
-			
-echo '<span class="qwe-prev-post">';previous_posts_link();echo '</span>';
-echo '<span class="qwe-next-post">';next_posts_link();echo '</span>';  
-
 		}
 	}
 ?>
-<span class="qwe-prev-post">
-	 <?php previous_posts_link(); ?> 
-</span>
-<span class="qwe-next-post">
-	<?php next_posts_link(); ?>
-</span>  
-<div class=" qwe-col-xs-9 qwe-col-lg-9 qwe-col-md-12 qwe-col-sm-12 qwe-col-vs-12">
-<div class="qwe-comments">
- <?php comments_template('comments.php'); ?>
- </div>
-
-
-</section>
-<!-- end qwe-index class -->

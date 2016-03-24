@@ -1,5 +1,4 @@
-<section class="qwe-page-class">
-
+<div class="qwe-services-page">
 <?php 
 if (have_posts()) {
 	while (have_posts()) {
@@ -20,6 +19,5 @@ if (have_posts()) {
 	}
 }
 ?>
-
-</section>
+</div>
 <!-- end qwe-page-class -->

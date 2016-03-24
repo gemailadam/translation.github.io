@@ -30,7 +30,7 @@
 		</div>
 		<!-- newsletter or gift start-->
 		<!-- sidebar Start -->
-		<div class="qwe-float-newsletter-or-gift">
+		<div class="qwe-newsletter qwe-float-newsletter-or-gift">
 				<?php dynamic_sidebar( 'newsletter' ); ?>
 		</div>
 		<!-- sidebar END -->

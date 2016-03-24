@@ -1,13 +1,15 @@
 
 /*header*/
 
-.qwe-site-title p {width:45%;padding-top:2%;line-height:8vw;}
+.qwe-site-title p {padding-left:25%; width:50%;padding-top:2%;line-height:8vw;}/*fix */
 .qwe-site-title a {background-color: transparent;text-decoration: none;display: block;color:#fff;}
 .qwe-site-title a {font-size: 4vw;text-shadow:2px 2px 3px #000;text-align: center;vertical-align:middle;}
 .qwe-site-title a:nth-child(2) {font-size: 3vw;}
 .qwe-site-title a button {font-size: 6vw;background-color: transparent;}
 .qwe-site-title a button {text-shadow:2px 2px 3px #000;box-shadow:2px 2px 8px #000;}
 .qwe-site-title a button {color:#fff;border: 1px solid #777; border-radius:10%;}
+
+
 
 /* slideshow or banner */
 .galleryPreviewImage {position: relative;z-index:-1;}
@@ -83,13 +85,13 @@ img#logo {
   text-decoration:none;
   text-shadow:2px 2px 3px #000;
   padding:1% 1%;
-  margin-top:1%;
-  font-size: 2vw;/*fix bug text changed at header*/
+  margin-top:1%;/*fix add after*/
 }
+
 .gallerydescription > div p {
   text-align: center;
-  vertical-align:middle;/*??*/
-  width:45%;
+  width:50%;/*fix ?*/
+  padding-left:25%;
 }
 .gallerydescription .description1 {display: block;}
 
@@ -99,9 +101,9 @@ img#logo {
     margin-right: 5%;
     margin-left: 5%;
     margin-top:1%;
-    border-radius: 0.5vw;/*fix*/
-    width:15vw;/*fix*/
-    border:0.1vw solid #fff;/*fix*/
+    border-radius: 4px;
+    width:20vw;
+    border:2px solid #fff;
     background-color:transparent;
     color: #fff;
     font-size: 3vw;
@@ -116,11 +118,19 @@ img#logo {
 }
 
 
-.galleryNavigationBullets p {
+.galleryNavigationBullets {
+    width: 100%;
+    text-align: center;
+    margin-top: 12vw;
+}
+
+/*fix add*/
+
+/* .galleryNavigationBullets p {
     text-align: center;
     padding-left:25%; width:50%;padding-top:2%;line-height:8vw;
 }
-
+ */
 .galleryNavigationBullets span {
     display: none;
 }
@@ -129,12 +139,11 @@ img#logo {
 .galleryNavigationBullets a {
     background-color:#fff;
     box-shadow:inset 3px 3px 8px #000;
-    width:2vw;
-    height: 2vw;
+    width:20px;/*fix*/
+    height: 20px;/*fix*/
     display: inline-block;
-    margin-right: 1vw;
-    border-radius: 1vw;
-    text-align: center;vertical-align:middle;/*fix bug text changed at header*/
+    margin-right: 5px;/*fix*/
+    border-radius: 35px;/*fix add after*/
 }
 
 .galleryNavigationBullets a:hover ,.galleryNavigationBullets a.active {
@@ -142,3 +151,4 @@ img#logo {
 }
 
 .galleryNavigationBullets a:focus {background-color:#fbca3c;}
+

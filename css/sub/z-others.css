@@ -1,0 +1,75 @@
+/* ooopppsss */
+.oops h1 {color:<?php echo get_theme_mod('404_qwe','#D94E3B;'); ?>;}
+
+/* Test WordPress Modify and Fix */
+.page .rect img {max-width:100%;height:auto;overflow: auto;}
+.page .rect iframe {max-width:100%;overflow: auto;}
+.page .rect div {max-width:100%;overflow: auto;}
+
+.page .rect {
+    max-width: 94%;
+}
+
+
+
+/* focus */
+
+html {
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+
+:focus {background: linear-gradient(rgba(251, 202, 60, 0.9), rgba(251, 202, 60, 0.1));  outline: 0;}
+input:focus{background-color:;}
+textarea:focus{background-color:;}
+select:focus{background-color:;}
+
+
+.qwe-nav-rtl {}
+
+/* section.site-title p:first-letter {font-size: 1.5em;} */
+/* section .title-description a:before { content: open-quote; } */
+/* section .title-description a:after { content: close-quote; } */
+
+
+
+/* Must be changed and fixed */
+/* 
+.table {box-shadow:inset 2px 2px 8px #000;padding: 5px 10px;width:70%;border: 0px solid #777;}
+.table textarea {box-shadow:inset 2px 2px 4px #000;padding: 5px 10px;color:#222;}
+.table input {box-shadow:inset 2px 2px 4px #000;padding: 5px 10px;color: #222;}
+.table label {box-shadow:inset 2px 2px 4px #000;padding: 5px 10px;color: #222;}
+.qwe_form {margin-left: 20px;}
+@media (max-width: 400px){
+.qwe-table {box-shadow:inset 2px 2px 8px #000;padding: 5px 10px;width:80%;border-radius: 10px;border: 0px solid #777;}
+
+} */
+
+
+/*POST FORMAT*/
+
+/* 
+.format-status .post-title {
+display:none;
+} */
+
+
+/* Gallery */
+
+/* .format-gallery {
+    padding-top: 10px;
+    border-radius: 20px;
+    border:1px solid #fbca3c;
+}
+.format-gallery figcaption {color:#222;}
+ */
+
+
+/*post format image*/
+
+/* .attachment-post-thumbnail {border-radius: 10px;border:5px solid #fbca3c;} 
+.size-post-thumbnail {}
+.wp-post-image {}
+
+.vcard img {width: 32px;height: 32px;} */

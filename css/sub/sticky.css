@@ -2,18 +2,16 @@
 /* sticky */
 .qwe-sticky {background-color:#fff;margin-bottom:5%;display:inline-block;float: left;}
 
-/*sticky*/
-
 .qwe-sticky-images img {
-    margin:10px 2%;
+    margin:2%;
     padding: 2% 2%;
-    border-radius: 20px 20px 50px 50px;
+    border-radius: 50% ;
     width:92%;
     float: left;
-    /*  -moz-box-shadow:    inset 0 0 10px #000000;
+/*       -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow: inset 0 0 2px #000000 , 0 5px 2px #000000; */
-    border: 1px solid #666;
+   box-shadow: inset 0 0 5px #000000 , 0 9px 5px #000000; */
+    border: 1px solid #000;
      }
 
 .qwe-sticky-wrapper {float: left;width:33%;}
@@ -23,18 +21,22 @@
     margin-left: 4%;
    -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow:0 3px 2px #000000 , 0 3px 2px #000000;
+    box-shadow:0 5px 5px #000000 , 0 9px 5px #000000;
     border: 1px solid #666;
     text-align: center;
     width:30%;
     height: 25px;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 .qwe-sticky-description p{
     margin:0px 4%;
     padding: 0% 2%;
     
 }
+
+
+
+
 
 @media (max-width: 768px){
 

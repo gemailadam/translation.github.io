@@ -1,25 +1,34 @@
 
 /* services page style */
 
-.qwe-post-wrapper {margin-top: 4vw;margin-bottom:4vw; }
-.qwe-post-wrapper {margin-left: 20%;width:60%;border:0.1vw solid #999 ;border-radius:1vw;}
-.qwe-post-wrapper h1 {margin:5%;}
-.qwe-post-wrapper h1 a{text-decoration: none;color:#444;}
-.contact-form {margin-left:5%;}
-.contact-form div:nth-child(1) ,.contact-form div:nth-child(5) ,
-.contact-form div:nth-child(6) ,.contact-form div:nth-child(11) {float: left;}
-.contact-form div label {color:#043951;}
-.contact-form div label span {color:#f00;box-shadow:inset 1px 1px 3px #000;}
-.contact-form div:nth-child(4) select {display: none;}
-.contact-form input {border: 0.1vw solid #777;box-shadow:inset 1px 1px 3px #000;border-radius: 0.5vw;height:3vw;}
-.contact-form select {border: 0.1vw solid #777;box-shadow:inset 1px 1px 3px #000;border-radius: 0.5vw;height:3vw;}
-.contact-form div:nth-child(3) select {width:90%;}
-.contact-form div:nth-child(5) ,.contact-form div:nth-child(6) {margin-right:5%;}
-.contact-form div:nth-child(11) {width:100%;}
-.contact-form div:nth-child(1)  ,.contact-form div:nth-child(2) {width:48%;display: inline-block;}
-.contact-form div:nth-child(8) input {width:90%;}
-.contact-form div:nth-child(9) input {width:90%;}
-.contact-form textarea {border: 0.1vw solid #777;box-shadow:inset 1px 1px 3px #000;border-radius: 0.5vw;width:100%;}
-.contact-form div:nth-child(10) textarea {width:90%;}
-.contact-form div:nth-child(12) input {width:90%;}
-.contact-form p input {width:90%;}
+/* services page style */
+
+.qwe-services-page .qwe-post-wrapper {margin-top: 4vw;margin-bottom:4vw; }
+.qwe-services-page .qwe-post-wrapper {margin-left: 20%;width:60%;border:0.1vw solid #999 ;border-radius:1vw;}
+.qwe-services-page .qwe-post-wrapper h1 {margin:3%;}
+.qwe-services-page .qwe-post-wrapper h1 a{text-decoration: none;color:#444;}
+.qwe-services-page .contact-form {margin-left:5%;}
+/* 
+.qwe-services-page .contact-form div:nth-child(1) ,.contact-form div:nth-child(5) ,
+.qwe-services-page .contact-form div:nth-child(6) ,.contact-form div:nth-child(11) ,
+.contact-form div:nth-child(11) ,.contact-form div:nth-child(13) , .contact-form div:nth-child(15) {float: left;}
+.qwe-services-page .contact-form div:nth-child(1)  ,.contact-form div:nth-child(2) {margin-right:6%; float: left;}
+.qwe-services-page .contact-form div label {color:#043951;}
+.qwe-services-page .contact-form div label span {color:#f00;box-shadow:inset 1px 1px 3px #000;}
+.qwe-services-page .contact-form div:nth-child(4) select {display: none;}
+.qwe-services-page .contact-form input {border: 0.1vw solid #777;box-shadow:inset 1px 1px 3px #000;border-radius: 0.5vw;height:3vw;}
+.qwe-services-page .contact-form select {border: 0.1vw solid #777;box-shadow:inset 1px 1px 3px #000;border-radius: 0.5vw;height:3vw;}
+.qwe-services-page .contact-form div:nth-child(3) select {width:90%;}
+.qwe-services-page .contact-form div:nth-child(5) ,.contact-form div:nth-child(6) {margin-right:5%;}
+.qwe-services-page .contact-form div:nth-child(11) {margin-right:10%;}
+.qwe-services-page .contact-form div:nth-child(8) input {width:90%;}
+.qwe-services-page .contact-form div:nth-child(9) input {width:90%;}
+.qwe-services-page .contact-form textarea {border: 0.1vw solid #777;box-shadow:inset 1px 1px 3px #000;border-radius: 0.5vw;width:100%;}
+.qwe-services-page .contact-form div:nth-child(10) textarea {width:90%;}
+.qwe-services-page .contact-form div:nth-child(11) select {}
+.qwe-services-page .contact-form div:nth-child(12) input {}
+.qwe-services-page .contact-form div:nth-child(13) label {margin-right:40%;}
+
+.qwe-services-page .contact-form p input {width:90%;margin-bottom:4vw;}
+
+ */

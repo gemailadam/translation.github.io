@@ -8,7 +8,7 @@ a {color: #000;}
 header ul , header li {list-style: none;}
 .qwe-container {background: transparent;}
 
-@font-face {
+/* @font-face {
     font-family: qwe_myFirstFont;
     font-weight: bold;
   	src: url(almendrasc-bold-webfont.eot);
@@ -16,11 +16,11 @@ header ul , header li {list-style: none;}
        url(almendrasc-bold-webfont.woff2) format('woff2'),
        url(almendrasc-bold-webfont.woff) format('woff'),
        url(almendrasc-bold-webfont.ttf) format('truetype');
-} 
+}  */
 /*
  * Dhyana (Lao) http://www.google.com/fonts/earlyaccess
  */
-@font-face {
+/* @font-face {
   font-family: 'Dhyana';
   font-style: normal;
   font-weight: 400;
@@ -34,4 +34,4 @@ header ul , header li {list-style: none;}
        url(//fonts.gstatic.com/ea/dhyana/v8/Dhyana-Bold.woff2) format('woff2'),
        url(//fonts.gstatic.com/ea/dhyana/v8/Dhyana-Bold.woff) format('woff'),
        url(//fonts.gstatic.com/ea/dhyana/v8/Dhyana-Bold.ttf) format('truetype');
-}
+} */

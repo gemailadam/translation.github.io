@@ -1,3 +1,8 @@
+<?php 
+/*
+Template Name: forums
+*/
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -8,26 +13,23 @@
 	<!-- container column width at all devices Start -->
 	<div class="qwe-contain qwe-col-xl-12 qwe-col-lg-12 qwe-col-md-12 qwe-col-sm-12">
 		<header>
-			<?php get_header(); ?>
+			<?php get_template_part('sub-pages/headerless'); ?>
 		</header>
 
 		<div class="qwe-main">
 			<div class="qwe-row">
-				<div class="qwe-page">
-					<!-- page column width Start -->
-					<div class="qwe-col-xl-12 qwe-col-lg-12 qwe-col-md-12 qwe-col-sm-12">
+				<!-- page column width Start -->
+				<div class="qwe-page qwe-col-xl-9 qwe-col-lg-12 qwe-col-md-12 qwe-col-sm-12">
   						<?php get_template_part('main-structure/main_page'); ?>
-					</div>
-					<!-- page column width END -->
 				</div>
+				<!-- page column width END -->
+				<!-- sidebar column width Start -->
+				<div class="qwe-sidebar qwe-col-xl-3 qwe-col-lg-12 qwe-col-md-12 qwe-col-sm-12">
+						<?php get_sidebar(); ?>
+				</div>
+				<!-- sidebar column width END -->
 			</div>
 		</div>
-		<!-- sidebar Start -->
-		<div class="qwe-float-sidebar">
-				<?php get_sidebar(); ?>
-		</div>
-		<!-- sidebar END -->
-	
 		<!-- newsletter or gift start-->
 		<div class="qwe-newsletter qwe-float-newsletter-or-gift">
 				<?php dynamic_sidebar( 'newsletter' ); ?>

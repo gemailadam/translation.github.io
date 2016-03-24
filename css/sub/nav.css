@@ -20,7 +20,7 @@
   /* font-family: Arial, Helvetica, sans-serif; */
   /* font-family: qwe_myFirstFont; */
   /* font-family: 'Indie Flower', cursive; */
-  font-family:  cursive;
+  /* font-family:  cursive; */
 }
 
 .qwe-nav ul {box-shadow: 4px 4px 8px #000;}
@@ -31,3 +31,11 @@
 .qwe-nav li:hover > ul{display: block;}
 .qwe-nav > div > ul > li:hover > ul {left:0;top:100%;}
 .qwe-nav > div > ul > li > ul li:hover > ul {left:100%;top:0%;}
+
+/* new  */
+.qwe-nav > div > ul > li:hover > ul {
+    animation-name: bounceInDown;
+    animation-duration: 1s;
+    border-radius:5%;
+    border: 0.1vw solid #666;
+}
