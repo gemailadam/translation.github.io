@@ -10,8 +10,8 @@
 <title><?php wp_title(''); ?></title>
 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?> ">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/skeleton-col.css">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/skeleton-row.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/skeleton-col-min.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/skeleton-row-min.css">
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/animation.css">
 
@@ -27,6 +27,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/sub/sidebar.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/sub/footer.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/sub/newsletter.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/sub/z.css">
 
 <!-- font -->
 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>

@@ -35,7 +35,7 @@
 /* new  */
 .qwe-nav > div > ul > li:hover > ul {
     animation-name: bounceInDown;
-    animation-duration: 1s;
+    animation-duration: 0.2s;
     border-radius:5%;
     border: 0.1vw solid #666;
 }

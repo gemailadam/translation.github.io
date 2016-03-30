@@ -12,7 +12,19 @@
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow: inset 0 0 5px #000000 , 0 9px 5px #000000; */
     border: 1px solid #000;
+
      }
+
+.qwe-sticky-images {
+
+  animation-duration:3s;
+  animation-name: zoomIn;
+  animation-delay:1s;
+  animation-iteration-count:2;
+  -webkit-animation-direction: normal;
+  -o-animation-direction: normal;
+  animation-direction: normal;
+}
 
 .qwe-sticky-wrapper {float: left;width:33%;}
 
