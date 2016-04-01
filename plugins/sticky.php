@@ -28,7 +28,7 @@
 					<div class="qwe-sticky-description">
 						
 						<?php 
-						$description_sticky_qwe = array('','You will find that we try to be the fastest' ,'Time Is Money So , We will save your time','Communication With our clients 24 7 365' );
+						$description_sticky_qwe = array('','You will find that we try to be the fastest' ,'Time Is Money So , We will save your time','Communication With our clients 24 7' );
 						echo '<a href="';
 						echo get_theme_mod($image_indicator_descrription_link[$num],'#');echo '"><p>';echo get_theme_mod($image_indicator_description[$num],$description_sticky_qwe[$num]);echo '</p></a>'; ?>
 

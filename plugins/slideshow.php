@@ -80,7 +80,7 @@
  			echo get_theme_mod($text_description_link_id_qwe,'#');
  			echo '">';
  			$description_qwe='description'.$count_qwe.'_qwe';
- 			echo get_theme_mod($description_qwe,'To Inspire Some You Must Inspire Your Delf First');
+ 			echo get_theme_mod($description_qwe,'To Inspire Some You Must Inspire Your Self First');
  			echo '</p></a></div><p><a href="';
  			$button_description_link_id_qwe='button_description_link'.$count_qwe.'_qwe';
  			echo get_theme_mod($button_description_link_id_qwe,'#');
