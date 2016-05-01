@@ -1,14 +1,13 @@
 /* ooopppsss */
-.oops h1 {color:<?php echo get_theme_mod('404_qwe','#D94E3B;'); ?>;}
-
-/* Test WordPress Modify and Fix */
-.page .rect img {max-width:100%;height:auto;overflow: auto;}
-.page .rect iframe {max-width:100%;overflow: auto;}
-.page .rect div {max-width:100%;overflow: auto;}
-
-.page .rect {
-    max-width: 94%;
+.oops  {}
+.oops p {
+  color:#222;
+  font-size:3vw;
+  padding:5%;
+  background-color:#fff;
+    text-shadow:0.2vw 0.2vw 1vw #000;
 }
+
 
 
 

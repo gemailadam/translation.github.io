@@ -104,4 +104,32 @@ register_sidebar($args);
 add_action('widgets_init','register_float_newsletter_plugin_qwe');
 
 
+
+
+/* nav arabic */
+
+function qwe_register_nav_menu(){
+
+    $location='header';
+    $description='Primary';
+    register_nav_menu( $location, $description );
+
+}
+add_action('after_setup_theme','qwe_register_nav_menu' );
+
+
+
+/* nav arabic */
+
+function qwe_register_nav_ar_menu(){
+
+    $location='headerarabic';
+    $description='Primary menu arabic';
+    register_nav_menu( $location, $description );
+
+}
+add_action('after_setup_theme','qwe_register_nav_ar_menu' );
+
+
+
 ?>

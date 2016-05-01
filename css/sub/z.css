@@ -1,3 +1,15 @@
+/* ooopppsss */
+.oops  {}
+.oops p {
+  color:#222;
+  font-size:3vw;
+  padding:5%;
+  background-color:#fff;
+    text-shadow:0.2vw 0.2vw 1vw #000;
+}
+
+
+
 .animation-qwe {
 	  animation-duration:3s;
   animation-name: hinge;
